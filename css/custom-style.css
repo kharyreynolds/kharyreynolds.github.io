@@ -28,8 +28,8 @@
 .featured {
     overflow: hidden;
     margin: 0 auto !important;
-    width: 1436px;
-    height: 720px;
+    width: 1425px;
+    height: 680px;
 }
 
 .profile-pic {
@@ -43,14 +43,42 @@
     -moz-border-radius: 100px;
 }
 
+.icon-phone-sign {
+    font-size: 22px;
+}
+
+.button i.icon-phone-sign  {
+    position: relative;
+    top: 3px;
+    line-height: 1;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+}
+
+.button.button-border.button-light {
+    background-color: rgba(0, 81, 177, 0.6);
+    border-color: transparent;
+    color: #fff;
+    text-shadow: none;
+}
+
+.button.button-border.button-light:hover {
+    background-color: rgba(0, 81, 177, 0.9);
+    color: #fff;
+    text-shadow: none;
+}
+
+.heading-border {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 100px;
+    border-top: 2px solid #fff;
+}
 
 
-
-
-
-
-
-.bannerText {
+.featured-wrap {
     position: absolute;
     left: 0;
     right: 0;
@@ -63,28 +91,26 @@
     zoom: 1;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    margin-right: auto;
+    margin-left: auto; 
 }
 
-.bannerText h1 {
+.featured-wrap h1 {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    font-size: 80px;
+    font-size: 36px;
     line-height: 90px;
-    font-weight: 700;
     margin: 0px;
-    padding-bottom: 8px;
     color: #fff;
 }
 
-.bannerText h2 {
-    font-size: 34px;
+.featured-wrap h2 {
+    font-size: 32px;
     text-transform: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
     line-height: 38px;
-    padding-bottom: 0px;
-    font-weight: 300;
-    text-transform: uppercase;
+    font-weight: 400;
+    
     margin: 0px;
     color: #fff;
 }
