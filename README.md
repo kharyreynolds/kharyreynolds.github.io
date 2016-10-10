@@ -1,1 +1,2 @@
-# Khary Reynolds | WordPress Developer | Marketing Automation Expert
+# Khary Reynolds
+# WordPress Developer | Marketing Automation Expert
