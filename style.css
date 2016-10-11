@@ -172,7 +172,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+	f/*ont-family: 'Raleway', sans-serif;*/
 }
 
 h5,
@@ -212,7 +212,7 @@ blockquote,
 address,
 table,
 fieldset,
-form { margin-bottom: 30px; }
+form { margin-bottom: 20px; }
 
 small { font-family: 'Lato', sans-serif; }
 
@@ -344,6 +344,36 @@ span.middot {
 .noradius { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; -ms-border-radius: 0 !important; -o-border-radius: 0 !important; border-radius: 0 !important; }
 
 .col-padding { padding: 60px; }
+
+.allpadding { padding: 50px !important; }
+
+.leftpadding { padding-left: 50px !important; }
+
+.rightpadding { padding-right: 50px !important; }
+
+.toppadding{ padding-top: 50px !important; }
+
+.bottompadding { padding-bottom: 50px !important; }
+
+.allpadding-sm { padding: 30px !important; }
+
+.leftpadding-sm { padding-left: 30px !important; }
+
+.rightpadding-sm { padding-right: 30px !important; }
+
+.toppadding-sm { padding-top: 30px !important; }
+
+.bottompadding-sm { padding-bottom: 30px !important; }
+
+.allpadding-lg { padding: 80px !important; }
+
+.leftpadding-lg { padding-left: 80px !important; }
+
+.rightpadding-lg { padding-right: 80px !important; }
+
+.toppadding-lg { padding-top: 80px !important; }
+
+.bottompadding-lg { padding-bottom: 80px !important; }
 
 .nopadding { padding: 0 !important; }
 
@@ -1982,7 +2012,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #header,
 #header-wrap,
 #logo img {
-	height: 100px;
+	/*height: 100px;*/
 	-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;
@@ -11139,7 +11169,7 @@ label.error { display: none !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 25px; }
 
 .heading-block h1,
 .heading-block h2,
@@ -11201,7 +11231,7 @@ label.error { display: none !important; }
 .heading-block:after {
 	content: '';
 	display: block;
-	margin-top: 30px;
+	margin-top: 20px;
 	width: 40px;
 	border-top: 2px solid #444;
 }

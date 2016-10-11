@@ -29,7 +29,7 @@
     overflow: hidden;
     margin: 0 auto !important;
     width: 1425px;
-    height: 680px;
+    height: 710px;
 }
 
 .profile-pic {
@@ -54,6 +54,10 @@
     margin-right: 5px;
     width: 30px;
     text-align: center;
+}
+
+.arrow-light {
+    background: url(../images/arrow-left-light.png) no-repeat 0 23px;
 }
 
 .button.button-border.button-light {
@@ -159,22 +163,117 @@ div.featured-overlay {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/*@media screen and (min-width: 1200px) {
+#header {
+    margin-top: 0px;
+    position: static;
+    left: 0px;
+    right: 0px;
+}
+
+#header-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
+
+
+#header.sticky-header .primary-menu a {
+    color: #000;
+    line-height: 12px;
+    font-weight: 600;
+}
+
+#header.sticky-header .navbar-nav>li>a:hover {
+    box-shadow: 0 -4px 0 #0051b1 inset;
+}
+
+.primary-menu {
+    margin: 0px auto;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.primary-menu a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    padding: 22px 25px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+}
+
+.navbar-nav>li>a:hover {
+    box-shadow: 0 -4px 0 #fff inset;
+}
+
+
+/*----------------------------------------------------
+Experience Section 
+------------------------------------------------------*/
+
+#section-experience h2{
+   /* color:#0051b1;*/
+}
+#section-experience p{
+    color:#84868d;
+    /*font-size:13px;*/
+    line-height:18px;
+}
+#section-experience .heading p{
+    padding-bottom:41px;
+}
+
+#section-experience h4{
+    font-weight:700;
+}
+
+
+#section-experience .arrowpart{
+    background:url(../images/arrow-left-light.png) no-repeat 0 23px;
+    float: left;
+    width: 15px;
+    height: 50px;
+}
+#section-experience .snippet{
+    background:#fafafa;
+    border-bottom:solid 4px #e8e7e7;
+    width: auto;
+    padding: 22px 47px 6px 47px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.rightarea{
+    border-left-color:#e5e4e4;
+    border-left: solid 1px #eaeaea;
+    padding-bottom: 47px;
+}
+
 .workYear {
+    font-size: 17px;
+    color: #fff;
+    background: #0051b1;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    border-radius: 50%;
+    font-weight:700;
+}
+
+@media screen and (min-width: 1200px) {
+.workyear {
     width: 140px;
     height: 140px;
     padding-top: 50px;
 }
 }
 
-.workYear {
-    font-size: 17px;
-    color: #fff;
-    background: #ff675f;
-    text-align: center;
-    padding: 40px 0 40px 0;
-    border-radius: 50%;
-}
+
+
+/*
 
 .arrowpart {
     float: left;
