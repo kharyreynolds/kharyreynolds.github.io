@@ -1,3 +1,50 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    outline: none;
+}
+
+h2 {
+    padding-bottom: 0px;
+}
+
+h4 {
+    padding-bottom: 6px;
+}
+
+.icon-wrapper .social-icon {
+    color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
+}
+
+.icon-wrapper .si-twitter {
+    background-color: #00ACEE !important;
+}
+
+.icon-wrapper .si-github {
+    background-color: #800080 !important;
+}
+
+.icon-wrapper .si-linkedin {
+    background-color: #0E76A8 !important;
+}
+
+.icon-wrapper .si-gplus {
+    background-color: #DD4B39 !important;
+}
+
+
+.container .row {
+    margin: 0px;
+}
+
 .skills-section {
     background: #eeeeee;
     color: #474d5d;
@@ -6,7 +53,6 @@
 .skills-section h4 {
 	font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     line-height: 24px;
     padding-bottom: 6px;
@@ -19,7 +65,6 @@
     font-size: 13px;
     line-height: 18px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     padding-bottom: 22px;
     margin: 0px;
@@ -28,7 +73,6 @@
 .featured {
     overflow: hidden;
     margin: 0 auto !important;
-    width: 1425px;
     height: 710px;
 }
 
@@ -54,6 +98,17 @@
     margin-right: 5px;
     width: 30px;
     text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline;
 }
 
 .arrow-light {
@@ -231,20 +286,32 @@ Experience Section
     font-weight:700;
 }
 
-
-#section-experience .arrowpart{
-    background:url(../images/arrow-left-light.png) no-repeat 0 23px;
+.arrowpart {
     float: left;
     width: 15px;
     height: 50px;
 }
-#section-experience .snippet{
+
+#section-experience .arrowpart{
+    background:url(../images/arrow-left-light.png) no-repeat 0 23px;
+}
+
+#section-education .arrowpart {
+    background: url(../images/arrow-left.png) no-repeat 0 23px;
+}
+
+.snippet{
     background:#fafafa;
     border-bottom:solid 4px #e8e7e7;
     width: auto;
     padding: 22px 47px 6px 47px;
     margin-left: 15px;
     text-align: left;
+}
+
+#section-education .snippet {
+    background: #f3f3f3;
+    border-bottom: solid 4px #eeeeee;
 }
 
 .rightarea{
@@ -258,35 +325,65 @@ Experience Section
     color: #fff;
     background: #0051b1;
     text-align: center;
-    padding: 40px 0 40px 0;
+    padding: 30px 0px;
     border-radius: 50%;
     font-weight:700;
 }
 
+
 @media screen and (min-width: 1200px) {
-.workyear {
-    width: 140px;
-    height: 140px;
-    padding-top: 50px;
-}
-}
-
-
-
-/*
-
-.arrowpart {
-    float: left;
-    width: 15px;
-    height: 50px;
-    background: url(../images/arrow-left.png) no-repeat 0 23px;
+    .workYear{
+        width:140px;
+        height:140px;
+    }
 }
 
-.exCon {
-    width: auto;
-    background: #f3f3f3;
-    border-bottom: solid 4px #eeeeee;
-    padding: 22px 47px 6px 47px;
-    margin-left: 15px;
-    text-align: left;
-}*/
+.footer-widgets-wrap {
+    position: relative;
+    padding: 80px 0;
+}
+
+#section-portfolio h2, #section-portfolio span {
+    color: #fff;
+}
+
+#section-portfolio .heading-block:after {
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 40px;
+    border-top: 2px solid #fff;
+}
+
+
+.portfolio-desc h3 a, .portfolio-desc span a {
+    color: #fff;
+}
+
+#section-contact .emphasis-title h2 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 30px 0;
+}
+
+#section-contact .button.button-border.button-light {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    text-shadow: none;
+}
+
+#section-contact .button.button-border.button-light:hover {
+    background-color: rgba(0, 81, 177, 0.9);
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+#copyrights  .copyrights-menu a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #fff;
+}
+
