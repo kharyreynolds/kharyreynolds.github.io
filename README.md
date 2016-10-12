@@ -1,3 +1,3 @@
 # Khary Reynolds
 # WordPress Developer | Marketing Automation Expert
-# Test Commit
+# New Commit for Training
